@@ -5,7 +5,7 @@ Control text lines, clock, icon LEDs, and the 9×7 mini-matrix — with built-in
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Text control:** write to line 0/1, soft-clear, CR, marquee, bounce.
 * **Clock:** 12/24-hour, move/stop, show, **sync from PC**.
@@ -18,7 +18,7 @@ Control text lines, clock, icon LEDs, and the 9×7 mini-matrix — with built-in
 
 ---
 
-## 📦 Install
+##  Install
 
 ```bash
 # Python 3.9+ recommended
@@ -27,7 +27,7 @@ pip install pyserial psutil   # psutil optional (for system meters)
 
 ---
 
-## ▶️ Run
+##  Run
 
 ```bash
 python md8800_gui.py
@@ -44,7 +44,7 @@ python md8800_gui.py
 
 ---
 
-## 🔧 Notes
+##  Notes
 
 * Device serial: **9600 baud, 8N2** (no parity, two stop bits).
 * Starting a mini-matrix mode automatically stops the previous one to avoid collisions.
@@ -52,7 +52,7 @@ python md8800_gui.py
 
 ---
 
-## 🙌 Credits / References
+##  Credits / References
 
 * LCDproc driver: `[MD8800.c](https://github.com/lcdproc/lcdproc/blob/master/server/drivers/MD8800.c)` (command set)
 * `[spacerace/m18st05](https://github.com/spacerace/m18st05)` (early tooling)
